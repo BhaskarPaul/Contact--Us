@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Itim" , cursive;
+    text-align: center;
+}
+
+h1{
+    font-family: "Special Elite", cursive;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 3rem;
+}
+
+.small{
+    height: 400px;
+    width: 300px;
+}
+
+.detailes{
+    color: white;
+}
+
+.CARD{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10%;
+    width: 300px;
+    height: 400px;
+    background: transparent;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    transition: 1s;
+    box-shadow: inset 300px 0 50px rgba(0,0,0,0.5);
+}
+
+.CARD:hover{
+    transform: perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,0.5);
+}
+
+.CARD .imgBX{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s;
+}
+
+.CARD:hover .imgBX{
+    transform: rotateY(-135deg);
+}
+
+.CARD .imgBX img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.CARD .detailes{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+p{
+    translate: scale(1.5);
+}
