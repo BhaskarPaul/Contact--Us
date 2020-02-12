@@ -83,6 +83,11 @@ h1{
     font-size: medium;
 }
 
+footer{
+    color: white;
+    font-size: .5rem;
+}
+
 
 
 @media only screen and (max-width: 600px){
@@ -101,6 +106,10 @@ h1{
     }
 
     .detailes p{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+    }
+
+    .detailes p i{
+        font-size: 1rem;
     }
 }
