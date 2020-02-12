@@ -32,6 +32,10 @@ h1{
     font-size: 1.2rem;
 }
 
+.detailes p i{
+    font-size: 1.2rem;
+}
+
 .CARD{
     text-align: center;
     position: relative;
@@ -86,7 +90,8 @@ h1{
 
 footer{
     color: white;
-    font-size: .6em;
+    font-size: 0.8rem;
+    margin-top: 5%;
 }
 
 
