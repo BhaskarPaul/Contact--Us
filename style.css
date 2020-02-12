@@ -22,8 +22,13 @@ h1{
     width: 300px;
 }
 
-.detailes{
+.detailes h2{
     color: white;
+}
+
+.detailes p{
+    color: white;
+    font-size: 1.2rem;
 }
 
 .CARD{
@@ -75,8 +80,27 @@ h1{
     left: 0;
     box-sizing: border-box;
     padding: 20px;
+    font-size: medium;
 }
 
-p{
-    translate: scale(1.5);
+
+
+@media only screen and (max-width: 600px){
+    .small{
+        height: 230px;
+        width: 170px;
+    }
+
+    .CARD{
+        height: 230px;
+        width: 170px;
+    }
+
+    .detailes h2{
+        font-size: 1.4rem;
+    }
+
+    .detailes p{
+        font-size: 0.7rem;
+    }
 }
